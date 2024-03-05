@@ -56,7 +56,7 @@ function calculateWord() {
         }
     }
 
-    document.getElementById('result').innerHTML = `რიცხვითი მნიშვნელობები → <span style="color: rgb(0, 255, 42)">${totalLetterValue}</span> და <span style="color:  rgb(0, 255, 42)">${totalNumerizedValue}</span>.`;
+    document.getElementById('result').innerHTML = `რიცხვითი მნიშვნელობები → <span style="color: rgb(0, 255, 42)">${totalNumerizedValue}</span> და <span style="color:  rgb(0, 255, 42)">${totalLetterValue}</span>.`;
     document.getElementById('numerized-result').innerText = `The numerized value of the word '${word}' is: ${totalNumerizedValue}`;
 }
 
